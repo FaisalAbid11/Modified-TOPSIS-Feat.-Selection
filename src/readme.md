@@ -22,9 +22,10 @@ This code implements the **Modified TOPSIS** (Technique for Order Preference by 
 
 5. **TOPSIS Score**:
    The **TOPSIS score** is then calculated using a weighted combination of the distances to the ideal best and worst points. The formula used here is:
-   \[
-   \text{TOPSIS score} = 0.5 \times \left(\frac{\text{distance to worst}}{\text{distance to best} + \text{distance to worst}}\right) + 0.5 \times \left(\frac{1}{1 + \text{distance to best}}\right)
-   \]
+
+$$
+\text{TOPSIS score} = 0.5 \times \left(\frac{\text{distance to worst}}{\text{distance to best} + \text{distance to worst}}\right) + 0.5 \times \left(\frac{1}{1 + \text{distance to best}}\right)
+$$
 
 ### Dataset and Weight Matrix:
 - **Dataset**: Contains 16 features related to work satisfaction, mental wellness, and demographic information.
