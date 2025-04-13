@@ -16,7 +16,22 @@ The **Modified TOPSIS** is our proposed feature selection method where we calcul
 
 ### Repository Structure:
 ```text
-your-repository/ │ ├── datasets/ # Folder for storing datasets │ ├── main_dataset_1.csv # Example of a main dataset │ ├── main_dataset_2.csv # Example of another main dataset │ └── main_dataset_3.csv # Another main dataset │ ├── notebooks/ # Folder for Jupyter Notebooks │ ├── feature_selection_topsis.ipynb │ ├── feature_selection_rfe.ipynb │ ├── feature_selection_skb.ipynb │ ├── feature_selection_info_gain.ipynb │ └── model_training.ipynb # The notebook that generates data │ ├── README.md # Main documentation file └── LICENSE # License file (e.g., MIT License)
+your-repository/
+│
+├── datasets/                  # Folder for storing datasets
+│   ├── main_dataset_1.csv     # Example of a main dataset
+│   ├── main_dataset_2.csv     # Another main dataset
+│   └── main_dataset_3.csv     # Another main dataset
+│
+├── notebooks/                 # Folder for Jupyter Notebooks
+│   ├── feature_selection_topsis.ipynb
+│   ├── feature_selection_rfe.ipynb
+│   ├── feature_selection_skb.ipynb
+│   ├── feature_selection_info_gain.ipynb
+│   └── model_training.ipynb   # The notebook that generates data
+│
+├── README.md                  # Main documentation file
+└── LICENSE                    # License file (e.g., MIT License)
 ```
 
 - **`datasets/`**: This folder contains the main datasets required for feature selection and model training.
