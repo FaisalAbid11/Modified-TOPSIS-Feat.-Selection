@@ -85,7 +85,7 @@ drive.mount('/content/drive')
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/FaisalAbid11/Modified-TOPSIS-Feat.-Selection.git
 cd your-repository
 ```
 #### 2. Create a Virtual Environment (Optional but Recommended)
@@ -95,7 +95,7 @@ source env/bin/activate
 ```
 #### 3. Install Required Packages
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn
+pip install numpy pandas scikit-learn matplotlib seaborn imblearn
 ```
 #### 4. Run the Jupyter Notebooks
 ```bash
