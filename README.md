@@ -19,8 +19,8 @@ The **Modified TOPSIS** is our proposed feature selection method where we calcul
 your-repository/
 │
 ├── datasets/                  
-│   ├── Primary dataset from Indonesian Private University.csv    
-├── notebooks/                  
+│   ├── feature selection new.csv    
+├── src/                  
 │   ├── Info-gain v2.ipynb
 │   ├── RFE v2.ipynb
 │   ├── select_k_best.ipynb
@@ -33,7 +33,7 @@ your-repository/
 ```
 
 - **datasets**: This folder contains the main datasets required for feature selection and model training.
-- **notebooks**: This folder contains the Jupyter Notebooks for different feature selection methods and the model training process.
+- **src**: This folder contains the Jupyter Notebooks for different feature selection methods and the model training process.
 - **README.md**: This file provides an overview and instructions for using the repository.
 - **LICENSE**: The license under which the repository is shared.
 
@@ -43,9 +43,9 @@ your-repository/
 **1. You can run the notebooks directly in your browser using Google Colab without any installation.**
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
-- [Modified TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/modified_topsis.ipynb)
+- [Modified TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/7ad86941dff1a3fcf070880d12fdf82654ee14c3/src/modified_topsis.ipynb)
 - [RFE](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/RFE%20v2.ipynb)
-- [SelectKBest](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/select_kbest.ipynb)
+- [SelectKBest](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/7ad86941dff1a3fcf070880d12fdf82654ee14c3/src/select_kbest.ipynb)
 - [Info Gain](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/Info-gain%20v2.ipynb)
 - [Normal TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/normal_topsis.ipynb)
 
@@ -62,11 +62,15 @@ your-repository/
 **2. Upload the required datasets when prompted, or mount your Google Drive.**
 
 - **If you're loading datasets stored in your ***GitHub repository***, use the `raw` file URL :**
+Click on the dataset file in the repository. Then, click the "Raw" button located at the top-right corner of the file preview. This will open the raw data in a new tab. From there, copy the URL from the address bar and paste it into the variable that stores the file path. For example: 
+
 ```python
 import pandas as pd
-url = "https://raw.githubusercontent.com/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/refs/heads/main/datasets/Primary%20dataset%20from%20Indonesian%20Private%20University.csv"
+url = "https://raw.githubusercontent.com/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/refs/heads/main/datasets/feature%20slection%20new.csv"
 df = pd.read_csv(url)
 ```
+***Note: Change the URL name with the raw url of required dataset***
+
 - **if you're uploading from your local system, first download it from datasets folder use the code to chose from local system:**
 ```python
 from google.colab import files
@@ -79,7 +83,7 @@ drive.mount('/content/drive')
 ```
 ***Reminder: If you're not using Google Drive, you'll need to re-upload your files every time you reconnect to a Colab session***
 
-**3. Run the notebook cells in order.**
+**3. You can run all cell together by selecting Run all from Runtime option in menu bar or by pressing Ctrl+f9. But for better undersating run the notebook cells in order by pressing Ctrl+Enter for selected cell or by clicking the triangular icon/button on top left corner of the cell.**
 
 ### Option 2: Run Locally
 
