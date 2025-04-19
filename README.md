@@ -21,10 +21,6 @@ your-repository/
 ├── datasets/                  
 │   ├── feature selection new.csv    
 ├── src/                  
-│   ├── Info-gain v2.ipynb
-│   ├── RFE v2.ipynb
-│   ├── select_k_best.ipynb
-│   ├── normal_topsis.ipynb
 │   ├── modified_topsis.ipynb
 │   └── readme.md
 │     
@@ -33,7 +29,7 @@ your-repository/
 ```
 
 - **datasets**: This folder contains the main datasets required for feature selection and model training.
-- **src**: This folder contains the Jupyter Notebooks for different feature selection methods and the model training process.
+- **src**: This folder contains the Jupyter Notebook for different feature selection methods and the model training process as well as a readme file to explain the modified topsis process.
 - **README.md**: This file provides an overview and instructions for using the repository.
 - **LICENSE**: The license under which the repository is shared.
 
@@ -43,11 +39,7 @@ your-repository/
 **1. You can run the notebooks directly in your browser using Google Colab without any installation.**
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
-- [Modified TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/7ad86941dff1a3fcf070880d12fdf82654ee14c3/src/modified_topsis.ipynb)
-- [RFE](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/RFE%20v2.ipynb)
-- [SelectKBest](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/7ad86941dff1a3fcf070880d12fdf82654ee14c3/src/select_kbest.ipynb)
-- [Info Gain](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/Info-gain%20v2.ipynb)
-- [Normal TOPSIS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/91fca8c24c0c70d4c38275f0e69d3059565919e8/src/normal_topsis.ipynb)
+- [Modified TOPSIS FS vs Traditional FS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/7ad86941dff1a3fcf070880d12fdf82654ee14c3/src/modified_topsis.ipynb)
 
 **Open from Colab:**
 - Go to [Google Colab](https://colab.research.google.com/).
