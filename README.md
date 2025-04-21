@@ -39,7 +39,7 @@ your-repository/
 **1. You can run the notebooks directly in your browser using Google Colab without any installation.**
    
 **Links for Each Notebook :** Click the links provided for each notebook to open it in colab:
-- [Modified TOPSIS FS vs Traditional FS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/20ef7a4259037e2acc78e583eb35b6f502fbc624/src/modified_topsis.ipynb)
+- [Modified TOPSIS FS vs Traditional FS](https://colab.research.google.com/github/FaisalAbid11/Modified-TOPSIS-Feat.-Selection/blob/bb207f228ce4337e7bbdc9d5d3aebee18b8b82a5/src/modified_topsis_fs.ipynb)
 
 **Open from Colab:**
 - Go to [Google Colab](https://colab.research.google.com/).
